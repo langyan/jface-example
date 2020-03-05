@@ -7,7 +7,9 @@ Bundle-Vendor: LIN
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.ui,
  org.apache.felix.scr,
- org.eclipse.equinox.event
+ org.eclipse.equinox.event,
+ org.eclipse.core.databinding;bundle-version="1.7.700",
+ org.eclipse.jface.databinding;bundle-version="1.9.200"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Import-Package: javax.inject
 Automatic-Module-Name: com.lin.jface.example
